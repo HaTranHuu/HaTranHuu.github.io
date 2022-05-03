@@ -1,0 +1,81 @@
+/* PC screen */
+@media (min-width: 1024px) {
+}
+
+/* Tablet screen */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+/* Mobile screen */
+@media (max-width: 740px) {
+  /* common command  */
+  .s-col-full {
+    width: 100% !important;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #header .mobile-menu {
+    display: block;
+  }
+
+  #nav {
+    width: 100%;
+    display: block;
+  }
+
+  #nav > li {
+    display: block;
+  }
+
+  #nav > li:first-child {
+    display: inline-block;
+  }
+
+  #nav li a {
+    padding: 2px 24px;
+  }
+
+  #nav .subNav {
+    position: initial;
+    background-color: black;
+  }
+
+  #nav .subNav a {
+    color: white;
+  }
+
+  .contact-info {
+    margin-bottom: 32px;
+  }
+}
+
+/* Tablet & Mobile common property */
+@media (max-width: 1023px) {
+  /* common command  */
+  .s-full-width {
+    width: 100% !important;
+  }
+
+  #nav .subNav a {
+    padding: 6px 41px;
+  }
+
+  .contact-form .form-control {
+    padding: 16px;
+  }
+
+  .contact-info {
+    line-height: 2;
+  }
+
+  .btn-black {
+    padding: 16px 16px;
+  }
+}

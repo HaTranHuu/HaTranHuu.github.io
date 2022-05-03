@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band - My first project</title>
+    <!-- Icon trên tab ở trình duyệt -->
+    <link rel="shortcut icon" href="https://img.icons8.com/color/344/subwoofer.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <script src="https://kit.fontawesome.com/ebc20ef0ed.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- Begin: nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <ul class="subNav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End: nav -->
+
+            <!-- Begin: search button -->
+            <div class="search-btn">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </div>
+            <!-- End: search button -->
+
+            <!-- Begin: mobile menu -->
+            <div class="mobile-menu">
+                <i class="fa-solid fa-bars menu-icon"></i>
+            </div>
+            <!-- End: mobile menu -->
+        </div>
+
+        <!-- Begin: slider -->
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio-btn-1">
+                <input type="radio" name="radio-btn" id="radio-btn-2">
+                <input type="radio" name="radio-btn" id="radio-btn-3">
+                <div class="slide active">
+                    <img src="./assets/img/slider/slider1.jpg" alt="O-ZONE" class="img-slider">
+                    <div class="text-content text-center">
+                        <h2 class="text-heading">New York</h2>
+                        <div class="text-description">The atmosphere in New York is lorem ipsum.</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slider/slider2.jpg" alt="O-ZONE" class="img-slider">
+                    <div class="text-content text-center">
+                        <h2 class="text-heading">Chicago</h2>
+                        <div class="text-description">Thank you, Chicago - A night we won't forget.</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./assets/img/slider/slider3.jpg" alt="O-ZONE" class="img-slider">
+                    <div class="text-content text-center">
+                        <h2 class="text-heading">Los Angeles</h2>
+                        <div class="text-description">We had the best time playing at Venice Beach!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-nav">
+                <label for="radio-btn-1" class="radio-nav active"></label>
+                <label for="radio-btn-2" class="radio-nav"></label>
+                <label for="radio-btn-3" class="radio-nav"></label>
+            </div>
+        </div>
+        <!-- End: slider -->
+
+        <!-- Begin: content -->
+        <div id="content">
+            <!-- Begin: About -->
+            <div id="band" class="content-section">
+                <h2 class="section-heading text-center text-center">O-ZONE</h2>
+                <p class="section-sub-heading text-center">One-Hit Wonders</p>
+                <p class="about-text">
+                    This Moldova-based Eurodance trio was founded in 1999 by Dan Balan. In 2001, Dan Balan, Radu Sirbu
+                    and Arsenie Todiras founded the final form of the band. The band became best known for their massive
+                    hit, 'Dragostea Din Tei', also known as 'Mai Ai Hee' or 'The Numa Numa Song'. When further
+                    translated the title is 'Love Of The Linden Tree', a reference to the work of Romanian poet Mihai
+                    Eminescu. Reaching number 1 in 32 countries, the song went on to sell over 12 million copies
+                    worldwide. Remarkably, over 100 artists in 12 different languages have covered it to date. The song
+                    also caused an Internet phenomenon whereby American Gary Brolsma posted a video of himself miming
+                    and dancing to the song in front of his webcam. It became one of the most viewed video clips ever,
+                    and led to Brolsma making appearances on US television shows such as The Tonight Show. O-Zone's
+                    follow-up, 'Despre Tine', was well received although its modest success could not live up to
+                    'Dragostea Din Tei'. The accompanying album was also largely successful. In 2005 the band decided to
+                    go separate ways and focus on solo careers. Radu Sirbu and Todiras have since both had relatively
+                    successful solo careers in Europe. Balan relocated to Los Angeles, California, USA to focus on his
+                    solo rock project, and recorded an album with acclaimed rock producer Jack Joseph Puig.
+                </p>
+                <div class="member-list row">
+                    <!-- Member1 -->
+                    <div class="s-col-full col col-3 text-center">
+                        <p class="member-name">Dan Balan</p>
+                        <img src="./assets/img/Band/member1.jpg" alt="Name" class="member-img">
+                    </div>
+
+                    <!-- Member2 -->
+                    <div class="s-col-full col col-3 text-center">
+                        <p class="member-name">Radu Sirbu</p>
+                        <img src="./assets/img/Band/member2.jpg" alt="Name" class="member-img">
+                    </div>
+
+                    <!-- Member3 -->
+                    <div class="s-col-full col col-3 text-center">
+                        <p class="member-name">Arsenie Todiras</p>
+                        <img src="./assets/img/Band/member3.jpg" alt="Name" class="member-img">
+                    </div>
+                </div>
+            </div>
+            <!-- End: About -->
+
+            <!-- Begin: Tour -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-center text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-center text-white">Remember to book your tickets!</p>
+
+                    <!-- Tickets -->
+                    <ul class="ticket-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity text-center">3</span></li>
+                    </ul>
+
+                    <!-- Places -->
+                    <div class="places-list row">
+                        <!-- New York -->
+                        <div class="s-col-full mt-16 col-3 col">
+                            <img src="./assets/img/places/place1.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="btn-black js-buy-ticket s-full-width text-center">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <!-- Paris -->
+                        <div class="s-col-full mt-16 col-3 col">
+                            <img src="./assets/img/places/place2.jpg" alt="Paris" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="btn-black js-buy-ticket s-full-width text-center">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <!-- San Francisco -->
+                        <div class="s-col-full mt-16 col-3 col">
+                            <img src="./assets/img/places/place3.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-description">Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                                </p>
+                                <button class="btn-black js-buy-ticket s-full-width text-center">Buy Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Tour -->
+
+            <!-- Start: Contact -->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading text-center">CONTACT</h2>
+                <p class="section-sub-heading text-center">Fan? Drop a note!</p>
+                <div class="row contact-content">
+                    <div class="col col-2 contact-info s-col-full">
+                        <p>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Chicago, US
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-phone"></i>
+                            Phone: <a href="tel:+00 151515">+00 151515</a>
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: <a href="mailto:mail@mail.com">mail@mail.com</a>
+                        </p>
+                    </div>
+                    <div class="col col-2 contact-form s-col-full">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-2 mb-8 s-col-full">
+                                    <input type="text" name="" id="" required class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col col-2 mb-8 s-col-full">
+                                    <input type="email" name="" id="" required class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="row mb-8">
+                                <div class="col col-1">
+                                    <input type="text" name="" id="" required class="form-control"
+                                        placeholder="Message">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col pull-right s-full-width">
+                                    <input class="btn-black s-full-width" type="submit" value="Send">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Contact -->
+
+            <!-- Begin: Map -->
+            <div class="map-section">
+                <img src="./assets/img/map/map.jpg" alt="Map">
+            </div>
+            <!-- End: Map -->
+        </div>
+        <!-- End: content -->
+
+        <!-- Begin: footer -->
+        <div id="footer">
+            <div class="footer-section">
+                <div class="socials-list">
+                    <a href="https://vi-vn.facebook.com/" target="_blank"><i
+                            class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.snapchat.com/" target="_blank"><i class="fa-brands fa-snapchat-square"></i></a>
+                    <a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href="https://twitter.com/?lang=vi" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <p class="copyright">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+                        target="_blank">w3.css</a></p>
+            </div>
+        </div>
+        <!-- End: footer -->
+
+    </div>
+
+    <!-- Begin: Buy Tickets Modal -->
+    <div class="buy-ticket-modal js-buy-modal">
+        <div class="modal-content js-modal-content">
+            <div class="modal-close js-modal-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <header>
+                <h2 class="modal-header text-center"><i class="modal-heading-icon fa-solid fa-suitcase"></i>Tickets</h2>
+            </header>
+            <div class="modal-body">
+                <label for="inp-number" class="modal-label">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="number" class="modal-input" id="inp-number" placeholder="How many?">
+
+                <label for="inp-email" class="modal-label">
+                    <i class="fa-solid fa-user"></i>
+                    Send to
+                </label>
+                <input type="email" class="modal-input" id="inp-email" placeholder="Enter email">
+                <button id="buy-tickets">
+                    Pay
+                    <i class="fa-solid fa-check"></i>
+                </button>
+            </div>
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="#">help?</a></p>
+            </footer>
+        </div>
+    </div>
+    <!-- End: Buy Tickets Modal -->
+
+</body>
+<!-- JS cho Menu Header -->
+<script>
+    var header = document.getElementById("header");
+    var mobileMenu = document.getElementsByClassName("mobile-menu");
+    var headerHeight = header.clientHeight;
+
+    // Manual đóng mở menu mobile bằng click vào hamburger button
+    mobileMenu[0].onclick = function () {
+        var isClosed = header.clientHeight === headerHeight;
+        if (isClosed) {
+            header.style.height = "auto";
+        }
+        else {
+            header.style.height = `${headerHeight}px`;
+        }
+    }
+
+    // Auto đóng menu mobile
+    // Truy vấn tất cả các phần tử thẻ a có href bao gồm phần tử '#'
+    var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+    for (const menuItem of menuItems) {
+        menuItem.addEventListener("click", (event) => {
+            var isParentMenu = (menuItem.nextElementSibling && menuItem.nextElementSibling.classList.contains("subNav"));
+            if (isParentMenu) {
+                // Bỏ qua khi không thỏa điều kiện, do đó khi click vào element More sẽ không bị nhảy về đầu trang
+                event.preventDefault();
+            }
+            else {
+                header.style.height = `${headerHeight}px`;
+            }
+        })
+    }
+</script>
+<!-- JS cho slider -->
+<script type="text/javascript">
+    "use-strict";
+    const gSlides = document.querySelectorAll('.slide');
+    const gBtns = document.querySelectorAll('.radio-nav');
+    const gNumberOfSlide = gSlides.length;
+    var gCurrentSlide = 0;
+    var autoPlay;
+
+    // Changing slides (both auto & manual)
+    autoChangeSlide();
+    gBtns.forEach((btn, i) => {
+        btn.addEventListener("click", () => {
+            "use-strict";
+            gCurrentSlide = i;
+            manualChangeSlide();
+        });
+    });
+
+    // Auto change Slide
+    function autoChangeSlide() {
+        "use-strict";
+        autoPlay = setInterval(function () {
+            // Cách 1
+            // gBtns.forEach((btn) => { btn.classList.remove('active'); });
+            // Cách 2
+            gBtns.forEach(btn => btn.classList.remove('active'));
+            gCurrentSlide++;
+            if (gCurrentSlide > gNumberOfSlide - 1) { gCurrentSlide = 0; }
+            document.getElementById('radio-btn-' + (gCurrentSlide + 1)).checked = 'true';
+            gBtns[gCurrentSlide].classList.add('active');
+        }, 8000);
+    }
+
+    // Manual change Slide
+    function manualChangeSlide() {
+        "use-strict";
+        // Cách 1
+        gBtns.forEach((btn) => { btn.classList.remove('active'); });
+        gBtns[gCurrentSlide].classList.add('active');
+
+        // My custom sliding
+        // if (paramManual === 0) {
+        //     gSlides[paramManual].style.marginLeft = "0%";
+        //     gSlides[paramManual + 1].style.marginLeft = "0%";
+        //     gSlides[paramManual + 2].style.marginLeft = "0%";
+        // }
+        // else if (paramManual === 1) {
+        //     gSlides[paramManual].style.marginLeft = "-20%";
+        //     gSlides[paramManual + 1].style.marginLeft = "0%";
+        // }
+        // else if (paramManual === 2) {
+        //     gSlides[paramManual].style.marginLeft = "-40%";
+        //     gSlides[paramManual - 1].style.marginLeft = "0%"
+        // }
+    }
+</script>
+<!-- JS cho Tour Dates -->
+<script>
+    const buyBtns = document.querySelectorAll(".js-buy-ticket");
+    const modal = document.querySelector(".js-buy-modal");
+    const modalContent = document.querySelector(".js-modal-content");
+    const closeModal = document.querySelector(".js-modal-close");
+
+    // Hiển thị modal buy ticket
+    function showBuyTickets() {
+        modal.classList.add("open");
+    }
+    // Kiểm tra tất cả các nút và lắng nghe khi có sự kiện click
+    for (const buyBtn of buyBtns) { // shorthand cho vòng lặp for
+        buyBtn.addEventListener("click", showBuyTickets);
+    }
+    // Cách 2:
+    // buyBtns.forEach((buyBtn) => {
+    //     buyBtn.addEventListener("click", showBuyTickets);
+    // });
+    // Ẩn modal buy ticket
+    function hideBuyTickets() {
+        modal.classList.remove("open");
+    }
+    function stopPropagation(event) {
+        event.stopPropagation();
+    }
+    // Lắng nghe khi có sự kiện click
+    closeModal.addEventListener("click", hideBuyTickets);
+    // Khi click vào bên ngoài buy model thì ẩn modal buy ticket
+    modal.addEventListener("click", hideBuyTickets);
+    // Ngăn hiện tượng sủi bọt (bubbling) khi tự ẩn modal buy ticket khi click vào chính nó
+    // Cách viết thứ nhất:
+    modalContent.addEventListener("click", stopPropagation);
+    // Cách viết thứ hai:
+    // modalContent.addEventListener("click", function(event) {
+    //     event.stopPropagation();
+    // });
+    // Cách viết thứ ba:
+    // modalContent.addEventListener("click", (event) => {
+    //     event.stopPropagation();
+    // });
+</script>
+
+</html>
