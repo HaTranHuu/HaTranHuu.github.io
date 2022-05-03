@@ -90,10 +90,12 @@ html {
   -webkit-appearance: none;
 }
 
-.btn-black:hover {
-  cursor: pointer;
-  color: black;
-  background-color: #ccc;
+@media (hover: hover) {
+  .btn-black:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #ccc;
+  }
 }
 
 /* Main */
@@ -141,10 +143,12 @@ html {
   text-transform: uppercase;
 }
 
-#nav > li:hover > a,
-#nav .subNav li:hover a {
-  color: black;
-  background-color: #ccc;
+@media (hover: hover) {
+  #nav > li:hover > a,
+  #nav .subNav li:hover a {
+    color: black;
+    background-color: #ccc;
+  }
 }
 
 #nav li:hover .subNav {
@@ -184,11 +188,11 @@ html {
   position: absolute;
 }
 
-#header .mobile-menu:active{
+#header .mobile-menu:active {
   background-color: #ccc;
 }
 
-#header .mobile-menu:active .menu-icon{
+#header .mobile-menu:active .menu-icon {
   color: black;
 }
 
@@ -253,9 +257,11 @@ html {
   margin-right: 40px;
 }
 
-.slider .radio-nav.active,
-.slider .radio-nav:hover {
-  background-color: whitesmoke;
+@media (hover: hover) {
+  .slider .radio-nav.active,
+  .slider .radio-nav:hover {
+    background-color: whitesmoke;
+  }
 }
 
 /* Manual slide change */
@@ -280,6 +286,7 @@ html {
   padding: 0 10px;
   border-radius: 8px;
   color: white;
+  text-shadow: 0 0 1px black;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -395,8 +402,10 @@ html {
   display: block;
 }
 
-#content .place-img:hover {
-  opacity: 0.6;
+@media (hover: hover) {
+  #content .place-img:hover {
+    opacity: 0.6;
+  }
 }
 
 #content .place-body {
@@ -431,9 +440,11 @@ html {
   display: inline-block;
 }
 
-#content .place-buy-btn:hover {
-  color: black;
-  background-color: #ccc;
+@media (hover: hover) {
+  #content .place-buy-btn:hover {
+    color: black;
+    background-color: #ccc;
+  }
 }
 
 /* Contact begin */
@@ -447,15 +458,17 @@ html {
 }
 
 .contact-info a {
-  opacity: 0.4;
-}
-
-.contact-info a:hover {
   opacity: 1;
 }
 
+@media (hover: hover) {
+  .contact-info a:hover {
+    opacity: 0.6;
+  }
+}
+
 /* Tất cả các thẻ i là con class contact-info có class chứa fa- */
-.contact-info i[class *= "fa-"] {
+.contact-info i[class*="fa-"] {
   width: 30px;
 }
 
@@ -494,12 +507,14 @@ html {
   color: rgba(0, 0, 0, 0.6);
 }
 
-#footer .copyright a:hover,
-#footer .socials-list a:hover {
-  opacity: 0.6;
+@media (hover: hover) {
+  #footer .copyright a:hover,
+  #footer .socials-list a:hover {
+    opacity: 0.6;
+  }
 }
 
-#footer .copyright, 
+#footer .copyright,
 #footer .copyright a {
   display: inline-block;
   font-size: 20px;
@@ -544,8 +559,10 @@ html {
   cursor: pointer;
 }
 
-.modal-close:hover {
-  background-color: #f44336;
+@media (hover: hover) {
+  .modal-close:hover {
+    background-color: #f44336;
+  } 
 }
 
 .modal-header {
@@ -597,8 +614,10 @@ html {
   background-color: #009688;
 }
 
-#buy-tickets:hover {
-  opacity: 0.7;
+@media (hover: hover) {
+  #buy-tickets:hover {
+    opacity: 0.6;
+  }
 }
 
 .modal-footer {

@@ -1,13 +1,13 @@
 /* PC screen */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
 }
 
 /* Tablet screen */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
 }
 
 /* Mobile screen */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
   /* common command  */
   .s-col-full {
     width: 100% !important;
@@ -57,10 +57,55 @@
 }
 
 /* Tablet & Mobile common property */
-@media (max-width: 1023px) {
+@media (max-width: 63.9375em) {
   /* common command  */
   .s-full-width {
     width: 100% !important;
+  }
+
+  @media (hover: none) {
+    .btn-black:active {
+      cursor: pointer;
+      color: black;
+      background-color: #ccc;
+    }
+
+    #nav > li:active > a,
+    #nav .subNav li:active a {
+      color: black;
+      background-color: #ccc;
+    }
+
+    .slider .radio-nav.active,
+    .slider .radio-nav:hover {
+      background-color: whitesmoke;
+    }
+
+    #content .place-img:active {
+      opacity: 0.6;
+    }
+
+    #content .place-buy-btn:active {
+      color: black;
+      background-color: #ccc;
+    }
+
+    .contact-info a:active {
+      opacity: 0.6;
+    }
+
+    #footer .copyright a:active,
+    #footer .socials-list a:active {
+      opacity: 0.6;
+    }
+
+    .modal-close:active {
+      background-color: #f44336;
+    }
+
+    #buy-tickets:active {
+      opacity: 0.6;
+    }
   }
 
   #nav .subNav a {
