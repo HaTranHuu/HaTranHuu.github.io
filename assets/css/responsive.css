@@ -81,17 +81,13 @@
       background-color: whitesmoke;
     }
 
-    .slider .slide .text-content {
-      padding: 0 10px;
-    }
-    
     .slider .slide .text-heading {
       font-size: 20px;
     }
     
     .slider .slide .text-description {
-      margin: 4px 0;
       font-size: 12px;
+      margin: 4px 0;
     }
 
     #content .place-img:active {
