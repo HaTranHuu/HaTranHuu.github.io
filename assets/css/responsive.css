@@ -77,7 +77,7 @@
     }
 
     .slider .radio-nav.active,
-    .slider .radio-nav:hover {
+    .slider .radio-nav:active {
       background-color: whitesmoke;
     }
 
