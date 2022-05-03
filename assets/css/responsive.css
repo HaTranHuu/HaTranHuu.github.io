@@ -81,6 +81,19 @@
       background-color: whitesmoke;
     }
 
+    .slider .slide .text-content {
+      padding: 0 10px;
+    }
+    
+    .slider .slide .text-heading {
+      font-size: 20px;
+    }
+    
+    .slider .slide .text-description {
+      margin: 4px 0;
+      font-size: 12px;
+    }
+
     #content .place-img:active {
       opacity: 0.6;
     }
